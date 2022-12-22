@@ -1,0 +1,28 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Akshay L Telang> cd "c:\Users\Akshay L Telang\Documents\assign_sem5\spos\2passAssembler_complet\my pass 2\" ; if ($?) { javac pass2.java } ; if ($?) { java pass2 }
+
++ 04 1 206
++ 05 1 211
++ 04 1 211
++ 04 3 212
++ 01 3 207
++ 07 6 208
++ 00 0 005
++ 00 0 001
++ 02 1 213
++ 07 1 202
++ 00 0 000
+
++ 03 3 212
+
++ 00 0 001
++ 00 0 001
+
++ 00 0 001
+
+OUTPUT FILE CREATED SUCCESSFULLY
+PS C:\Users\Akshay L Telang\Documents\assign_sem5\spos\2passAssembler_complet\my pass 2>

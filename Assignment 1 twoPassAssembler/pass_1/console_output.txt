@@ -1,0 +1,45 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Akshay L Telang> cd "c:\Users\Akshay L Telang\Documents\assign_sem5\spos\2passAssembler_complet\my pass 1\" ; if ($?) { javac pass1.java } ; if ($?) { java pass1 }
+        START 200
+LOOP    MOVER AREG, ='4'
+        LTORG
+        MOVER CREG, ='7'
+L1        MOVEM AREG, A 
+A       DS      1       
+        END;
+
+
+symbol table
+LOOP    201     1
+L1      204     1
+A       205     1
+
+
+litrel table     
+='4'    202      
+='7'    206      
+
+
+pool table
+1
+2
+0
+
+
+
+IC code
+(AD,01)(C,200)
+(IS,04)(1)(L,0)
+(DL,01)(C,4)
+(IS,04)(3)(L,1)
+(IS,05)(1)(S,2)
+(DL,02)(C,1)
+(DL,01)(C,7)
+
+(AD,02)
+
+PS C:\Users\Akshay L Telang\Documents\assign_sem5\spos\2passAssembler_complet\my pass 1> 

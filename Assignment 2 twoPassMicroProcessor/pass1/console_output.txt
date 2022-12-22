@@ -1,0 +1,36 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Akshay L Telang> cd "c:\Users\Akshay L Telang\Documents\assign_sem5\spos\macro proceesor\pass1_macro\" ; if ($?) { javac pass1_macro.java } ; if ($?) { java pass1_macro }
+
+*********PASS-1 MACROPROCESSOR***********
+
+MACRO NAME TABLE (MNT)
+
+i macro loc
+
+1 INCR 1 
+2 PVG 5 
+
+
+ARGUMENT LIST ARRAY(ALA) for Pass1
+
+0 &ARG3 
+1 &ARG2 
+
+
+MACRO DEFINITION TABLE (MDT)      
+
+INCR &ARG3 &ARG2
+ADD AREG &ARG1
+MOVER BREG &ARG1
+MEND
+PVG &ARG2 &ARG1
+SUB AREG #1
+MOVER CREG & ARG1
+MEND
+
+
+PS C:\Users\Akshay L Telang\Documents\assign_sem5\spos\macro proceesor\pass1_macro>

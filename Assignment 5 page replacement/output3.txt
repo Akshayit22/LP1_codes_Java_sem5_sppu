@@ -1,0 +1,131 @@
+>> if ($?) { javac page_replacement_algo.java } ; if ($?) { java page_replacement_algo }
+
+
+
+Enter page frames size :  3
+Enter pages :  (please don't put extra spaces)
+7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+
+
+Input data :-      
+page frame size : 3
+pages Entered : 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1 
+
+1.First-In-First-Out
+2.Least Recently Used
+3.Optimal Algorithm
+4/0. To Exit
+Enter your choice
+1
+First-In-First-Out
+        pages           0       1       2       status
+
+        7               7       -1      -1      Page Fault
+        0               7       0       -1      Page Fault
+        1               7       0       1       Page Fault
+        2               2       0       1       Page Fault
+        0               2       0       1       Page Hit
+        3               2       3       1       Page Fault
+        0               2       3       0       Page Fault
+        4               4       3       0       Page Fault
+        2               4       2       0       Page Fault
+        3               4       2       3       Page Fault
+        0               0       2       3       Page Fault
+        3               0       2       3       Page Hit
+        2               0       2       3       Page Hit
+        1               0       1       3       Page Fault
+        2               0       1       2       Page Fault
+        0               0       1       2       Page Hit
+        1               0       1       2       Page Hit
+        7               7       1       2       Page Fault
+        0               7       0       2       Page Fault
+        1               7       0       1       Page Fault
+
+
+
+page hit : 5
+page fault : 15
+
+
+
+1.First-In-First-Out
+2.Least Recently Used
+3.Optimal Algorithm
+4/0. To Exit
+Enter your choice
+2
+Least Recently Used
+        pages           0       1       2       status
+
+        7               7       -1      -1      Page Fault
+        0               7       0       -1      Page Fault
+        1               7       0       1       Page Fault
+        2               2       0       1       Page Fault
+        0               2       0       1       Page Hit
+        3               2       0       3       Page Fault
+        0               2       0       3       Page Hit
+        4               4       0       3       Page Fault
+        2               4       0       2       Page Fault
+        3               4       3       2       Page Fault
+        0               0       3       2       Page Fault
+        3               0       3       2       Page Hit
+        2               0       3       2       Page Hit
+        1               1       3       2       Page Fault
+        2               1       3       2       Page Hit
+        0               1       0       2       Page Fault
+        1               1       0       2       Page Hit
+        7               1       0       7       Page Fault
+        0               1       0       7       Page Hit
+        1               1       0       7       Page Hit
+
+
+
+page hit : 8
+page fault : 12
+
+
+
+1.First-In-First-Out
+2.Least Recently Used
+3.Optimal Algorithm
+4/0. To Exit
+Enter your choice
+3
+Optimal Algorithm
+        pages           0       1       2       status
+
+        7               7       -1      -1      Page Fault
+        0               7       0       -1      Page Fault
+        1               7       0       1       Page Fault
+        2               2       0       1       Page Fault
+        0               2       0       1       Page Hit
+        3               2       0       3       Page Fault
+        0               2       0       3       Page Hit
+        4               2       4       3       Page Fault
+        2               2       4       3       Page Hit
+        3               2       4       3       Page Hit
+        0               2       0       3       Page Fault
+        3               2       0       3       Page Hit
+        2               2       0       3       Page Hit
+        1               2       0       1       Page Fault
+        2               2       0       1       Page Hit
+        0               2       0       1       Page Hit
+        1               2       0       1       Page Hit
+        7               7       0       1       Page Fault
+        0               7       0       1       Page Hit
+        1               7       0       1       Page Hit
+
+
+
+page hit : 11
+page fault : 9
+
+
+
+1.First-In-First-Out
+2.Least Recently Used
+3.Optimal Algorithm
+4/0. To Exit
+Enter your choice
+4
+>>
